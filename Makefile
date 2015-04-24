@@ -332,6 +332,8 @@ $(eval $(call BUILDBOX,win2008r2-standard,$(WIN2008R2_X64),$(WIN2008R2_X64_CHECK
 
 $(eval $(call BUILDBOX,eval-win2008r2-standard,$(EVAL_WIN2008R2_X64),$(EVAL_WIN2008R2_X64_CHECKSUM)))
 
+$(eval $(call BUILDBOX,eval-win2008r2-standardcore,$(EVAL_WIN2008R2_X64),$(EVAL_WIN2008R2_X64_CHECKSUM)))
+
 $(eval $(call BUILDBOX,win2008r2-web,$(WIN2008R2_X64),$(WIN2008R2_X64_CHECKSUM)))
 
 $(eval $(call BUILDBOX,win2012-datacenter,$(WIN2012_X64),$(WIN2012_X64_CHECKSUM)))
@@ -345,6 +347,8 @@ $(eval $(call BUILDBOX,eval-win2012r2-datacenter,$(EVAL_WIN2012R2_X64),$(EVAL_WI
 $(eval $(call BUILDBOX,win2012r2-standard,$(WIN2012R2_X64),$(WIN2012R2_X64_CHECKSUM)))
 
 $(eval $(call BUILDBOX,eval-win2012r2-standard,$(EVAL_WIN2012R2_X64),$(EVAL_WIN2012R2_X64_CHECKSUM)))
+
+$(eval $(call BUILDBOX,eval-win2012r2-standardcore,$(EVAL_WIN2012R2_X64),$(EVAL_WIN2012R2_X64_CHECKSUM)))
 
 $(eval $(call BUILDBOX,win2012r2-standardcore,$(WIN2012R2_X64),$(WIN2012R2_X64_CHECKSUM)))
 
